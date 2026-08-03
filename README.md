@@ -1,6 +1,6 @@
 # Version 14 Theme for Starship
 
-A [Starship](https://starship.rs) prompt palette built around the **Version 14** brand palette — the same palette used across the [Zed](https://github.com/version14/zed-theme), [VS Code](https://github.com/version14/vscode-theme), [Neovim/Vim](https://github.com/version14/nvim-theme), and [Ghostty](https://github.com/version14/ghostty-theme) ports.
+A [Starship](https://starship.rs) prompt palette built around the Version 14 brand palette, the same palette used across the [Zed](https://github.com/version14/zed-theme), [VS Code](https://github.com/version14/vscode-theme), [Neovim/Vim](https://github.com/version14/nvim-theme), and [Ghostty](https://github.com/version14/ghostty-theme) ports.
 
 ## Variants
 
@@ -10,19 +10,29 @@ A [Starship](https://starship.rs) prompt palette built around the **Version 14**
 | **Version 14 Black** | `version14-black.toml` | `version14-black` |
 | **Version 14 Light** | `version14-light.toml` | `version14-light` |
 
-> The `accent`/`cyan` violet is currently a **placeholder** hue, standing in for a retired lime-green accent while a permanent replacement is chosen.
+> The `accent`/`cyan` violet is a placeholder hue, standing in for a retired lime green accent while a permanent replacement is chosen.
 
 ## Installation
 
-1. Paste the contents of the variant file you want into your `~/.config/starship.toml` (or clone the repo — `git clone https://github.com/version14/starship-theme` — to grab all three at once).
+1. Paste the contents of the variant file you want into your `~/.config/starship.toml`, or clone the repo to grab all three:
+   ```sh
+   git clone https://github.com/version14/starship-theme
+   ```
 2. Set the active palette:
    ```toml
    palette = "version14"
    ```
-3. Reference palette colors in your module styles with `$role`, e.g. `style = "bold $accent"`.
-4. Open a new shell, or run `starship prompt --path ~` to sanity-check the config parses without errors before relying on a full new shell session.
+3. Reference palette colors in your module styles with `$role`, for example `style = "bold $accent"`.
 
-### Example module styles
+## Verify
+
+```sh
+starship prompt --path ~
+```
+
+This renders the prompt once without starting a full shell session, so a config error surfaces immediately instead of on your next terminal launch.
+
+## Example module styles
 
 ```toml
 "$schema" = 'https://starship.rs/config-schema.json'
@@ -117,12 +127,14 @@ style = "$fg_muted"
 | `cyan` | `#5F3BBB` |
 | `border` | `#D2D4D7` |
 
-## Also available for Zed, VS Code, Neovim/Vim, and Ghostty
+## Also available for
 
-- [Zed extension](https://github.com/version14/zed-theme)
-- [VS Code extension](https://github.com/version14/vscode-theme)
-- [Neovim/Vim plugin](https://github.com/version14/nvim-theme)
-- [Ghostty theme](https://github.com/version14/ghostty-theme)
+- [Zed](https://github.com/version14/zed-theme)
+- [VS Code](https://github.com/version14/vscode-theme)
+- [Neovim/Vim](https://github.com/version14/nvim-theme)
+- [Ghostty](https://github.com/version14/ghostty-theme)
+- [gh-dash](https://github.com/version14/gh-dash-theme)
+- [Atuin](https://github.com/version14/atuin-theme)
 
 ## License
 
