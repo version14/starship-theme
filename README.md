@@ -14,12 +14,13 @@ A [Starship](https://starship.rs) prompt palette built around the **Version 14**
 
 ## Installation
 
-1. Paste the contents of the variant file you want into your `~/.config/starship.toml`.
+1. Paste the contents of the variant file you want into your `~/.config/starship.toml` (or clone the repo — `git clone https://github.com/version14/starship-theme` — to grab all three at once).
 2. Set the active palette:
    ```toml
    palette = "version14"
    ```
 3. Reference palette colors in your module styles with `$role`, e.g. `style = "bold $accent"`.
+4. Open a new shell, or run `starship prompt --path ~` to sanity-check the config parses without errors before relying on a full new shell session.
 
 ### Example module styles
 
