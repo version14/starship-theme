@@ -2,6 +2,10 @@
 
 A [Starship](https://starship.rs) prompt palette built around the Version 14 brand palette, the same palette used across the [Zed](https://github.com/version14/zed-theme), [VS Code](https://github.com/version14/vscode-theme), [Neovim/Vim](https://github.com/version14/nvim-theme), and [Ghostty](https://github.com/version14/ghostty-theme) ports.
 
+## Palette source
+
+The shared semantic colors are maintained in [version14/tokens](https://github.com/version14/tokens). This repository keeps Starship-native generated files.
+
 ## Variants
 
 | Variant | File | `palette` value |
