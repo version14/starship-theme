@@ -135,6 +135,7 @@ style = "$fg_muted"
 - [Ghostty](https://github.com/version14/ghostty-theme)
 - [gh-dash](https://github.com/version14/gh-dash-theme)
 - [Atuin](https://github.com/version14/atuin-theme)
+- [Helix](https://github.com/version14/helix-theme)
 
 ## License
 
